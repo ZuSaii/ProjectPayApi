@@ -91,6 +91,10 @@ header {
     letter-spacing: -0.12px;
 }
 
+#message-contact-page:hover {
+    outline: none;
+}
+
 .checkbox-button {
     border: solid 1px #36536B;
     border-radius: 24px;
