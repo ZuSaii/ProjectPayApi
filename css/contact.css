@@ -1,0 +1,126 @@
+header {
+    margin-bottom: 48px;
+}
+
+.partners svg {
+    fill: #36536B;
+}
+
+.main-title {
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    color: #36536B;
+    font-family: "DM Serif Display", serif;
+    margin-bottom: 40px;
+}
+
+.secondpart-partners-content h2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    opacity: 75%;
+    letter-spacing: -0.18px;
+    margin-bottom: 32px;
+    color: #36536B;
+}
+
+.contact-page {
+    font-family: "Public Sans", sans-serif;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.contact-page input {
+    font-family: "Public Sans", sans-serif;
+    border: none;
+    font-size: 15px;
+    opacity: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 16px;
+    line-height: 25px;
+    letter-spacing: -0.12px;
+    background-color: #edf3f8;
+    width: 100%;
+    border-bottom: solid 1px #36536B;
+}
+
+#message-contact-page {
+    font-family: "Public Sans", sans-serif;
+    border: none;
+    font-size: 15px;
+    opacity: 100%;
+    background-color: #edf3f8;
+    padding-left: 20px;
+    padding-bottom: 16px;
+    line-height: 25px;
+    letter-spacing: -0.12px;
+    width: 100%;
+    border-bottom: solid 1px #36536B;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+#checkbox-contact-page {
+    height: 24px;
+    width: 24px;
+    background-color: #36536B;
+    border: none;
+}
+
+.checkbox-container label {
+    width: 90%;
+    color: #36536B;
+    font-size: 15px;
+    line-height: 25px;
+    margin-left: auto;
+    letter-spacing: -0.12px;
+}
+
+.checkbox-button {
+    border: solid 1px #36536B;
+    border-radius: 24px;
+    background-color: #edf3f8;
+    margin-bottom: 80px;
+    padding: 14px 50px;
+    font-weight: 700;
+    font-family: "Public Sans", sans-serif;
+    line-height: 18px;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: -0.12px;
+    color:#36536B;
+    width: 152px;
+}
+
+@media screen and (min-width:768px) {
+    header {
+        margin-bottom: 76px;
+    }
+
+    .main-title {
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.37px;
+        margin-bottom: 54px;
+    }
+
+    .contact-page {
+        width: 70%;
+    }
+
+    .secondpart-partners-content {
+        width: 80%;
+        margin-bottom: 100px;
+    }
+}

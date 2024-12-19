@@ -53,16 +53,15 @@ span {
     text-align: center;
 }
 
-hr {
-    border: solid 1px #36536B;
-    opacity: 25%;
-    width: 100%;
-    margin-bottom: 24px;
-}
-
 .disponibilities-verif {
     display: flex;
+    border-top: solid 1px#36536B;
+    border-bottom: solid 1px #36536B;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
     margin-bottom: 24px;
+    justify-content: center;
 }
 
 .verif {
@@ -177,6 +176,10 @@ hr {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 72px;
+    }
+
+    .disponibilities-verif {
+        justify-content: flex-start;
     }
 
     .description-offers {

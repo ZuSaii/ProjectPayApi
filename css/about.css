@@ -1,0 +1,221 @@
+header {
+    margin-bottom: 48px;
+}
+
+.ambitions-content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+}
+
+.main-title {
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    font-family: "DM Serif Display", serif;
+    color: #36536B;
+    margin-bottom: 40px;
+}
+
+.ambitions {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 48px;
+    width: 100%;
+}
+
+.business {
+    margin-bottom: 76px;
+}
+
+.ambitions h3 {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: #36536B;
+    font-family: "DM Serif Display", serif;
+    margin-bottom: 16px;
+}
+
+.ambitions p {
+    color: #6C8294;
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.image {
+    background-image: url(../assets/about/mobile/image-team-members.jpg);
+    width: 100%;
+    max-width: 375px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    background-repeat:  no-repeat;
+}
+
+.stats-container {
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.stats-content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stats-content hr {
+    opacity: 25%;
+    width: 100%;
+    border-bottom: solid 1px #36536B;
+    border-top: solid 1px #36536B;
+    margin-bottom: 16px;
+}
+
+.second {
+    margin-bottom: 0;
+}
+
+.stats {
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.stat {
+    width: 100%;
+    border-top: solid 1px #36536B;
+    border-bottom: solid 1px #36536B;
+}
+
+.team-members {
+    border-bottom: none;
+    padding-top: 16px;
+}
+
+.office {
+    border: none;
+}
+
+.transaction {
+    padding-bottom: 16px;
+    border-top: none;
+}
+
+.stat h4 {
+    font-family: "Public Sans", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #36536B;
+    opacity: 70%;
+}
+
+.stat span {
+    font-family: "DM Serif Display", serif;
+    font-size: 56px;
+    letter-spacing: -0.43px;
+    line-height: 72px;
+    color: #BA4270;
+}
+
+@media screen and (min-width:768px) {
+    header {
+        margin-bottom: 76px;
+    }
+
+    .main-title {
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.37px;
+        font-family: "DM Serif Display", serif;
+        margin-bottom: 54px;
+    }
+
+    .ambitions {
+        flex-direction: row;
+        text-align: left;
+        gap: 64px;
+        align-items: flex-start;
+    }
+
+    .ambitions-content {
+        margin-bottom: 72px;
+    }
+
+    .ambitions h3 {
+        width: 30%;
+        margin-bottom: 0;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -0.25px;
+    }
+
+    .ambitions p {
+        width: 70%;
+    }
+
+    .image {
+        background-image: url(../assets/about/tablet/image-team-members.jpg);
+        width: 100%;
+        max-width: 768px;
+        height: 267px;
+    }
+
+    .stats {
+        flex-direction: row;
+    }
+
+    .stat {
+        border-top: solid 1px #36536B;
+        border-bottom: solid 1px #36536B;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        text-align: left;
+    }
+
+}   
+
+@media screen and (min-width:1024px) {
+    header {
+        margin-bottom: 82px;
+    }
+
+    .ambitions-content {
+        width: 60%;
+        max-width: 920px;
+        margin-bottom: 100px;
+    }
+
+    .main-title {
+        font-size: 56px;
+        line-height: 56px;
+        text-align: left;
+        letter-spacing: -0.43px;
+    }
+
+    .image {
+        background-image: url(../assets/about/desktop/image-team-members.jpg);
+        width: 100%;
+        max-width: 1440px;
+        height: 500px;
+        margin-bottom: 72px;
+    }
+
+    .stats-content {
+        width: 70%;
+        max-width: 1110px;
+        margin-bottom: 72px;
+    }
+
+    .business {
+        margin-bottom: 100px;
+    }
+}
