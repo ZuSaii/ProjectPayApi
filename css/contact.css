@@ -27,6 +27,10 @@ header {
     color: #36536B;
 }
 
+.contact-page input:focus {
+    outline: none;
+}
+
 .contact-page {
     font-family: "Public Sans", sans-serif;
     width: 90%;
@@ -122,5 +126,7 @@ header {
     .secondpart-partners-content {
         width: 80%;
         margin-bottom: 100px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
