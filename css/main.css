@@ -461,6 +461,7 @@ footer {
         display: flex;
         width: 100%;
         align-items: center;
+        justify-content: space-between;
     }
 
     .burger-menu-icon {
@@ -469,11 +470,11 @@ footer {
 
     .links {
         display: flex;
-        justify-content: space-between;
         list-style: none;
         padding: 0;
         height: 100%;
-        margin-right: auto;
+        gap: 30px;
+        width: 100%;
     }
 
     .link {
@@ -484,7 +485,6 @@ footer {
         display: flex;
         align-items: center;
         font-family: "Public Sans", sans-serif;
-        margin-right: 40px;
         height: 100%;
         font-weight: 700;
         text-decoration: none;
